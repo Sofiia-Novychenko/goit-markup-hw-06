@@ -22,10 +22,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="navigation">
-      <div class="container">
-        <nav class="nav-page">
-          <a href="./index.html" class="logo"
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo header-logo"
             >Web<span class="accent">Studio</span></a
           >
           <ul class="nav-list">
@@ -55,10 +55,88 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn">
+          <svg class="burger-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-hamburger-btn"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close-btn">
+            <svg class="mobile-menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-cross"></use>
+            </svg>
+          </button>
+
+          <nav class="menu-nav">
+            <ul class="nav-menu-list">
+            <li>
+              <a class="nav-menu-list-link current" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="nav-menu-list-link" href="">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-menu-list-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+          </nav>
+
+          <address class="menu-address">
+            <ul class="contact-menu-list">
+            <li>
+              <a class="contact-menu-link current" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-menu-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          </address>
+
+          <ul class="social-list">
+            <li class="social-list-item">
+              <a href="" class="social-link">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-link">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-link">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-link">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+        </div>
       </div>
     </header>
 
-    <main>
+    <!-- <main>
       <section class="hero-page">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
@@ -130,7 +208,7 @@
           <ul class="name-list">
             <li class="name-item-box">
               <img
-                src="./images/img-3.jpg"
+                src="./images/mark-guerrero.jpg"
                 alt="a smiling middle-agename-item-social-listd man with a beard"
                 width="264"
               />
@@ -172,7 +250,7 @@
 
             <li class="name-item-box">
               <img
-                src="./images/img-2.jpg"
+                src="./images/tom-ford.jpg"
                 alt="a young man smiling"
                 width="264"
               />
@@ -214,7 +292,7 @@
 
             <li class="name-item-box">
               <img
-                src="./images/img-1.jpg"
+                src="./images/camila-garcia.jpg"
                 alt="a young woman smiling"
                 width="264"
               />
@@ -257,7 +335,7 @@
 
             <li class="name-item-box">
               <img
-                src="./images/img.jpg"
+                src="./images/daniel-wilson.jpg"
                 alt="a smiling young man with a beard "
                 width="264"
               />
@@ -596,6 +674,6 @@
           <button class="review-form-submit-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
