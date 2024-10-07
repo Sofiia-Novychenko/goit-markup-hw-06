@@ -63,7 +63,7 @@
         </button>
       </div>
 
-      <div class="mobile-menu">
+      <div class="mobile-menu is-open">
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close-btn">
             <svg class="mobile-menu-close-icon" width="8" height="8">
@@ -73,32 +73,33 @@
 
           <nav class="menu-nav">
             <ul class="nav-menu-list">
-            <li>
-              <a class="nav-menu-list-link current" href="./index.html">Studio</a>
-            </li>
-            <li>
-              <a class="nav-menu-list-link" href="">Portfolio</a>
-            </li>
-            <li>
-              <a class="nav-menu-list-link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+              <li>
+                <a class="nav-menu-list-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li>
+                <a class="nav-menu-list-link" href="">Portfolio</a>
+              </li>
+              <li>
+                <a class="nav-menu-list-link" href="">Contacts</a>
+              </li>
+            </ul>
           </nav>
-          
+
           <address class="menu-address">
             <ul class="contact-menu-list">
-            <li>
-              <a class="contact-menu-link current" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contact-menu-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
+              <li>
+                <a class="contact-menu-link current" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="contact-menu-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
           </address>
 
           <ul class="social-list">
@@ -131,7 +132,6 @@
               </a>
             </li>
           </ul>
-
         </div>
       </div>
     </header>
@@ -208,7 +208,7 @@
           <ul class="name-list">
             <li class="name-item-box">
               <img
-              srcset="./images/mark-guerrero@2x.jpg 2x"
+                srcset="./images/mark-guerrero@2x.jpg 2x"
                 src="./images/mark-guerrero.jpg"
                 alt="a smiling middle-agename-item-social-listd man with a beard"
                 width="264"
@@ -252,7 +252,7 @@
 
             <li class="name-item-box">
               <img
-              srcset="./images/tom-ford@2x.jpg 2x"
+                srcset="./images/tom-ford@2x.jpg 2x"
                 src="./images/tom-ford.jpg"
                 alt="a young man smiling"
                 width="264"
@@ -295,7 +295,7 @@
 
             <li class="name-item-box">
               <img
-               srcset="./images/camila-garcia@2x.jpg 2x"
+                srcset="./images/camila-garcia@2x.jpg 2x"
                 src="./images/camila-garcia.jpg"
                 alt="a young woman smiling"
                 width="264"
@@ -390,15 +390,33 @@
             <li class="portfolio-list-item">
               <div class="portfolio-img-wrapper">
                 <picture>
-                  <source media="(min-width: 1158px)" srcset="./images/portfolio/banking-app.jpg 1x, ./images/portfolio/banking-app@2x.jpg 2x" />
-                  <source media="(min-width: 768px)" srcset="./images/portfolio/banking-app-tablet.jpg 1x, ./images/portfolio/banking-app-tablet@2x.jpg 2x" />
-                  <source media="(max-width: 767px)" srcset="./images/portfolio/banking-app-mobile.jpg 1x, ./images/portfolio/banking-app-mobile@2x.jpg 2x" />
-                    <img
-                      src="./images/portfolio/banking-app.jpg"
-                      alt="banking app"
-                      width="360"
-                      height="300"
-                    />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/banking-app.jpg    1x,
+                      ./images/portfolio/banking-app@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/banking-app-tablet.jpg    1x,
+                      ./images/portfolio/banking-app-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/banking-app-mobile.jpg    1x,
+                      ./images/portfolio/banking-app-mobile@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/banking-app.jpg"
+                    alt="banking app"
+                    width="360"
+                    height="300"
+                  />
                 </picture>
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -416,15 +434,33 @@
             <li class="portfolio-list-item">
               <div class="portfolio-img-wrapper">
                 <picture>
-                  <source media="(min-width: 1158px)" srcset="./images/portfolio/cashless-payment.jpg 1x, ./images/portfolio/cashless-payment@2x.jpg 2x, "/>
-                  <source media="(min-width: 768px)" srcset="./images/portfolio/cashless-payment-tablet.jpg 1x, ./images/portfolio/cashless-payment-tablet@2x.jpg 2x"/>
-                  <source media="(max-width: 767px)" srcset="./images/portfolio/cashless-payment-mobile.jpg 1x, ./images/portfolio/cashless-payment-mobile@2x.jpg 2x"/>
-                    <img
-                      src="./images/portfolio/cashless-payment.jpg"
-                      alt="cashless payment process"
-                      width="360"
-                      height="300"
-                    />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/cashless-payment.jpg    1x,
+                      ./images/portfolio/cashless-payment@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/cashless-payment-tablet.jpg    1x,
+                      ./images/portfolio/cashless-payment-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/cashless-payment-mobile.jpg    1x,
+                      ./images/portfolio/cashless-payment-mobile@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/cashless-payment.jpg"
+                    alt="cashless payment process"
+                    width="360"
+                    height="300"
+                  />
                 </picture>
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -441,15 +477,33 @@
             <li class="portfolio-list-item">
               <div class="portfolio-img-wrapper">
                 <picture>
-                  <source media="(min-width: 1158px)" srcset="./images/portfolio/pc-display.jpg 1x, ./images/portfolio/pc-display@2x.jpg 2x"/>
-                  <source media="(min-width: 768px)" srcset="./images/portfolio/pc-display-tablet.jpg 1x, ./images/portfolio/pc-display-tablet@2x.jpg 2x"/>
-                  <source media="(max-width: 767px)" srcset="./images/portfolio/pc-display-mobile.jpg 1x, ./images/portfolio/pc-display-mobile@2x.jpg 2x"/>
-                    <img
-                      src="./images/portfolio/pc-display.jpg"
-                      alt="laptop display"
-                      width="360"
-                      height="300"
-                    />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/pc-display.jpg    1x,
+                      ./images/portfolio/pc-display@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/pc-display-tablet.jpg    1x,
+                      ./images/portfolio/pc-display-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/pc-display-mobile.jpg    1x,
+                      ./images/portfolio/pc-display-mobile@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/pc-display.jpg"
+                    alt="laptop display"
+                    width="360"
+                    height="300"
+                  />
                 </picture>
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -466,15 +520,33 @@
             <li class="portfolio-list-item">
               <div class="portfolio-img-wrapper">
                 <picture>
-                  <source media="(min-width: 1158px)" srcset="./images/portfolio/car.jpg 1x, ./images/portfolio/car@2x.jpg 2x"/>
-                  <source media="(min-width: 768px)" srcset="./images/portfolio/car-tablet.jpg 1x, ./images/portfolio/car-tablet@2x.jpg 2x"/>
-                  <source media="(max-width: 767px)" srcset="./images/portfolio/car-mobile.jpg 1x, ./images/portfolio/car-mobile@2x.jpg 2x"/>
-                    <img
-                      src="./images/portfolio/car.jpg"
-                      alt="car salon from the inside"
-                      width="360"
-                      height="300"
-                    />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/car.jpg    1x,
+                      ./images/portfolio/car@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/car-tablet.jpg    1x,
+                      ./images/portfolio/car-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/car-mobile.jpg    1x,
+                      ./images/portfolio/car-mobile@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/car.jpg"
+                    alt="car salon from the inside"
+                    width="360"
+                    height="300"
+                  />
                 </picture>
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -491,15 +563,33 @@
             <li class="portfolio-list-item">
               <div class="portfolio-img-wrapper">
                 <picture>
-                  <source media="(min-width: 1158px)" srcset="./images/portfolio/phone-display.jpg 1x, ./images/portfolio/phone-display-mobile@2x.jpg 2x"/>
-                  <source media="(min-width: 768px)" srcset="./images/portfolio/pc-display-tablet.jpg 1x, ./images/portfolio/phone-display-mobile@2x.jpg 2x"/>
-                  <source media="(max-width: 767px)" srcset="./images/portfolio/phone-display-mobile.jpg 1x, ./images/portfolio/phone-display-mobile@2x.jpg 2x"/>
-                    <img
-                      src="./images/portfolio/phone-display.jpg"
-                      alt="phone display with various designes"
-                      width="360"
-                      height="300"
-                    />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/phone-display.jpg           1x,
+                      ./images/portfolio/phone-display-mobile@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/pc-display-tablet.jpg       1x,
+                      ./images/portfolio/phone-display-mobile@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/phone-display-mobile.jpg    1x,
+                      ./images/portfolio/phone-display-mobile@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/phone-display.jpg"
+                    alt="phone display with various designes"
+                    width="360"
+                    height="300"
+                  />
                 </picture>
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -516,15 +606,33 @@
             <li class="portfolio-list-item">
               <div class="portfolio-img-wrapper">
                 <picture>
-                  <source media="(min-width: 1158px)" srcset="./images/portfolio/woman-smiling.jpg 1x, ./images/portfolio/woman-smiling@2x.jpg 2x"/>
-                  <source media="(min-width: 768px)" srcset="./images/portfolio/woman-smiling-tablet.jpg 1x, ./images/portfolio/woman-smiling-tablet@2x.jpg 2x"/>
-                  <source media="(max-width: 767px)" srcset="./images/portfolio/woman-smiling-mobile.jpg 1x, ./images/portfolio/woman-smiling-mobile@2x.jpg 2x"/>
-                    <img
-                      src="./images/portfolio/woman-smiling.jpg"
-                      alt="woman smiling while looking in the phone"
-                      width="360"
-                      height="300"
-                    />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/woman-smiling.jpg    1x,
+                      ./images/portfolio/woman-smiling@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/woman-smiling-tablet.jpg    1x,
+                      ./images/portfolio/woman-smiling-tablet@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/woman-smiling-mobile.jpg    1x,
+                      ./images/portfolio/woman-smiling-mobile@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/woman-smiling.jpg"
+                    alt="woman smiling while looking in the phone"
+                    width="360"
+                    height="300"
+                  />
                 </picture>
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
