@@ -8,10 +8,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -63,7 +59,7 @@
         </button>
       </div>
 
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu">
         <div class="container mobile-menu-container">
           <button class="mobile-menu-close-btn">
             <svg class="mobile-menu-close-icon" width="8" height="8">
@@ -140,7 +136,9 @@
       <section class="hero-page">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" id="open_btn">
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -721,9 +719,9 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop" id="modal_container">
       <div class="modal">
-        <button class="form-close-btn" type="button">
+        <button class="form-close-btn" type="button" id="close_btn">
           <svg class="form-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-cross"></use>
           </svg>
@@ -819,5 +817,7 @@
         </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
